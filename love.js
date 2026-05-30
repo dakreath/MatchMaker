@@ -8,7 +8,7 @@ function calculateLove(){
     }
 
     if(name1 === name2){
-        alert("This is self-love. Sorry, we cannot compute your self-esteem!."");
+        alert("Invalid request! You must enter both names."");
         return;
     
     }
