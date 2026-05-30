@@ -8,9 +8,9 @@ function calculateLove(){
     }
 
     if(name1 === name2){
-        //alert("Please, enter different names.");
+        alert("This is self-love. Sorry, we cannot compute your self-esteem!."");
         //return;
-        result.innerHTML += "<br> This is self-love. Sorry, we cannot compute your self-esteem!";
+    
     }
 
     
