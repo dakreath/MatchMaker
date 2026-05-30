@@ -3,12 +3,12 @@ function calculateLove(){
     const name2 = document.getElementById("name2").value.trim();
 
     if(!name1 || !name2){
-        alert("Required! You must enter both names.");
+        alert("Invalid request! You must enter both names.");
         return;
     }
 
     if(name1 === name2){
-        alert("Invalid request! You must enter both names."");
+        alert("Sorry. We cannot compute your self-esteem level.");
         return;
     
     }
