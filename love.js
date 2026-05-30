@@ -8,9 +8,11 @@ function calculateLove(){
     }
 
     if(name1 === name2){
-        alert("Please, enter different names.");
-        return;
+        //alert("Please, enter different names.");
+        //return;
+        result.innerHTML += "<br> This is self-love. Sorry, we cannot compute your self-esteem!";
     }
+
     
     const lovePercentage = Math.floor(Math.random() * 101);
     const result = document.getElementById("result");
