@@ -9,7 +9,7 @@ function calculateLove(){
 
     if(name1 === name2){
         alert("This is self-love. Sorry, we cannot compute your self-esteem!."");
-        //return;
+        return;
     
     }
 
