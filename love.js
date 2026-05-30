@@ -8,7 +8,7 @@ function calculateLove(){
     }
 
     if(name1 === name2){
-        alert("Sorry. We cannot compute your self-esteem level.");
+        alert(`Sorry, ${name1}. We cannot compute your self-esteem level.`);
         return;
     
     }
